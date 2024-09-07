@@ -1,7 +1,7 @@
 ## Exploring NextJS and React
 ### -- The Ultimate Roadmap to Mastery --
 
-This is a guide created for NextJS and React based off the course ![Next.js 14 & React - The Complete Guide](https://www.udemy.com/course/nextjs-react-the-complete-guide/?couponCode=OF83024F) by ![Maximilian Schwarzmüller](https://www.udemy.com/course/nextjs-react-the-complete-guide/#instructor-1). He is a fantastic instructor, and makes things simple and clear. I have also incorporated ChatGPT and Google's Gemini to provide different examples where I was unsure after watching the videos. I recommend following along with the examples, and trying different things to really solidify your understanding. Each section is marked 1, 2, 3, etc. This is the recommended order to go through.
+This is a guide created for NextJS and React based off the course [Next.js 14 & React - The Complete Guide](https://www.udemy.com/course/nextjs-react-the-complete-guide/?couponCode=OF83024F) by [Maximilian Schwarzmüller](https://www.udemy.com/course/nextjs-react-the-complete-guide/#instructor-1). He is a fantastic instructor, and makes things simple and clear. I have also incorporated ChatGPT and Google's Gemini to provide different examples where I was unsure after watching the videos. I recommend following along with the examples, and trying different things to really solidify your understanding. Each section is marked 1, 2, 3, etc. This is the recommended order to go through.
 
 I hope this guide will help others working to learn NextJS and wish everyone much success. Lets begin!
 
