@@ -67,41 +67,41 @@ To get started with React, you'll need to set up a project that supports all the
 3. Creating a New React Project
     Once Node.js is installed, you can create a new React project using either CRA or Vite.
 
-    •	For Create React App:
+    **For Create React App**
 
-        o	Open your terminal and run:
+    Open your terminal and run:
 
-            ```npx create-react-app your-project-name```
+       ```npx create-react-app your-project-name```
 
-    •	For Vite:
+    **For Vite**
 
-        o	Open your terminal and run:
+    Open your terminal and run:
 
-            ```npm create vite@latest```
+       ```npm create vite@latest```
 
-            o	You’ll then be asked to name the project, select a template (choose React), and specify JavaScript or TypeScript.
+    You’ll then be asked to name the project, select a template (choose React), and specify JavaScript or TypeScript.
 
  4. Setting Up the Project
 
      Once the project is created, follow these steps:
 
-         •	Navigate to your project folder:
+    1. Navigate to your project folder:
 
-             ```cd your-project-name```
+       ```cd your-project-name```
 
-         •	Install dependencies (only necessary for Vite):
+    2. Install dependencies (only necessary for Vite):
 
-             ```npm install```
+        ```npm install```
 
-         •	Start the development server:
+    3. Start the development server:
 
-         o	For CRA:
+        o For CRA:
 
-             ```npm start```
+       ```npm start```
 
-         o	For Vite:
+        o For Vite:
 
-             ```npm run dev```
+        ```npm run dev```
 
      Once your server is running, a local development URL will be displayed in the terminal, allowing you to preview your project in a browser.
 
