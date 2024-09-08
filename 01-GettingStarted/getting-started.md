@@ -1,5 +1,6 @@
 ## Getting Started with React
-    1. Creating a React Project
+
+    **Creating a React Project**
 
         When building a web app using Vanilla JavaScript, setting up a project is relatively straightforward:
 
@@ -8,7 +9,7 @@
 
         However, with React, the process is a bit more involved. This is because React requires certain behind-the-scenes processes and tooling to handle code transformations, development previews, and automatic updates.
 
-    2. Why React Needs Special Setup
+    **Why React Needs Special Setup**
 
         In React, we often blend HTML and JavaScript within the same file. This is done for convenience, as it allows developers to write UI elements and logic in a single, cohesive way.
 
