@@ -44,6 +44,7 @@ Next.js is a React framework that enables developers to build server rendered Re
 
 
 **Why Use It?**
+
     1.	Performance Optimization: Next.js optimizes performance with server-side rendering, static site generation, and automatic code splitting. This helps improve load times and overall user experience.
 
     2.	SEO Benefits: Server-side rendering and static generation make it easier to optimize pages for search engines since content is rendered and available to crawlers when the page loads.
