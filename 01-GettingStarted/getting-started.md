@@ -111,12 +111,10 @@ You’ll then be asked to name the project, select a template (choose React), an
     o For Vite:
 
         npm run dev
-
-    Once your server is running, a local development URL will be displayed in the terminal, allowing you 
-    to preview your project in a browser.
+```
+    Once your server is running, a local development URL will be displayed in the terminal, allowing you to preview your project in a browser.
 
 ### **Editing the Project**
 
-You can now open your project in any code editor, like Visual Studio Code. From there, you can start building 
-your React app by editing the files and structure as needed.
+You can now open your project in any code editor, like Visual Studio Code. From there, you can start building your React app by editing the files and structure as needed.
 
