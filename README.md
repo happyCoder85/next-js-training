@@ -51,14 +51,16 @@ It supports features like:
     1. React’s State Management:
         Another powerful feature of React is its ability to manage state.
             •	State refers to variables that determine how a component behaves or displays.
-            •	React allows you to define states (e.g., whether a modal is open or closed) and react to
-            changes in those states, ensuring your UI always reflects the current status of the app.
+            •	React allows you to define states (e.g., whether a modal is open or closed) and
+                react to changes in those states, ensuring your UI always reflects the current status
+                of the app.
 ```
 
 **Why Use It?**
 ```
-    1.	Performance Optimization: Next.js optimizes performance with server-side rendering, static site
-    generation, and automatic code splitting. This helps improve load times and overall user experience.
+    1.	Performance Optimization: Next.js optimizes performance with server-side rendering,
+        static site generation, and automatic code splitting. This helps improve load times and
+        overall user experience.
 
     2.	SEO Benefits: Server-side rendering and static generation make it easier to optimize
     pages for search engines since content is rendered and available to crawlers when the page loads.
