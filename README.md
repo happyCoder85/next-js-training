@@ -14,13 +14,14 @@ Next.js is a React framework that enables developers to build server rendered Re
     •   Server-Side Rendering (SSR): Pages can be rendered on the server before being sent to the client,
         improving initial load performance and SEO.
 
-    •	Static Site Generation (SSG): Pages can be pre-rendered at build time, allowing for fast load times
-        and better performance.
+    •	Static Site Generation (SSG): Pages can be pre-rendered at build time, allowing for fast load
+        times and better performance.
 
-    •	Incremental Static Regeneration (ISR): Allows updating static content incrementally without rebuilding the whole site.
+    •	Incremental Static Regeneration (ISR): Allows updating static content incrementally without
+        rebuilding the whole site.
 
-    •	API Routes: Enables you to create backend API routes within the same codebase, simplifying development by keeping
-        front-end and back-end code together.
+    •	API Routes: Enables you to create backend API routes within the same codebase, simplifying
+        development by keeping front-end and back-end code together.
 
     •	Built-in CSS and Sass Support: Provides support for importing CSS and Sass files directly.
 
