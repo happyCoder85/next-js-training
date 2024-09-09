@@ -9,10 +9,10 @@
 2. Project Structure
 
     •	The core of the project is found in the source folder (src), where the main code lives.
-    •	The project contains JSX files, which are JavaScript files that can also include HTML-like code. These files are what 
-        you will work with in React.
-    •	Example: Instead of using separate HTML and JavaScript files, JSX allows you to write both together in a cleaner, more 
-        intuitive way.
+    •	The project contains JSX files, which are JavaScript files that can also include HTML-like code. These files are
+        what you will work with in React.
+    •	Example: Instead of using separate HTML and JavaScript files, JSX allows you to write both together in a cleaner,
+        more intuitive way.
 
 3. JSX Syntax and Transformation
 
@@ -25,8 +25,8 @@
 4. Working with CSS
 
     •	The project also supports CSS imports directly inside JavaScript files.
-    •	Normally, importing CSS into JavaScript wouldn't work in a browser, but the Vite setup handles this, ensuring the CSS
-        is included in the final output.
+    •	Normally, importing CSS into JavaScript wouldn't work in a browser, but the Vite setup handles this, ensuring the
+        CSS is included in the final output.
     •	Example: If you have a style.css file, you can import it into your JSX file, and it will automatically be applied to
         the rendered elements.
 
