@@ -39,36 +39,40 @@ Next.js is a React framework that enables developers to build server rendered Re
             •	Write cleaner, more maintainable code.
             •	Let React handle the specifics of how the UI updates in response to user actions.
     1. JSX: Blending HTML and JavaScript:
-        React supports a special syntax called JSX, which allows developers to write HTML-like code directly in JavaScript files.
-        This  feature simplifies UI development by embedding HTML within JavaScript and makes it easier to manage complex interfaces.
-            •	In the React example, JSX is used to mix HTML structure and JavaScript logic (e.g., setShowModal) into a single,
+        React supports a special syntax called JSX, which allows developers to write HTML-like code directly in JavaScript 
+        files.
+        This  feature simplifies UI development by embedding HTML within JavaScript and makes it easier to manage complex 
+        interfaces.
+            •	In the React example, JSX is used to mix HTML structure and JavaScript logic (e.g., setShowModal) into a 
+            single,
                 cohesive code block.
     1. React’s State Management:
         Another powerful feature of React is its ability to manage state.
             •	State refers to variables that determine how a component behaves or displays.
-            •	React allows you to define states (e.g., whether a modal is open or closed) and react to changes in those states,
+            •	React allows you to define states (e.g., whether a modal is open or closed) and react to changes in those 
+            states,
                 ensuring your UI always reflects the current status of the app.
 ```
 
 **Why Use It?**
 ```
-    1.	Performance Optimization: Next.js optimizes performance with server-side rendering, static site generation, and automatic
-    code splitting. This helps improve load times and overall user experience.
+    1.	Performance Optimization: Next.js optimizes performance with server-side rendering, static site generation, and 
+    automatic code splitting. This helps improve load times and overall user experience.
 
-    2.	SEO Benefits: Server-side rendering and static generation make it easier to optimize pages for search engines since content
-        is rendered and available to crawlers when the page loads.
+    2.	SEO Benefits: Server-side rendering and static generation make it easier to optimize pages for search engines since 
+    content is rendered and available to crawlers when the page loads.
 
-    3.	Developer Experience: Next.js offers a great development experience with features like hot reloading, built-in CSS support,
-        and a well-structured project setup.
+    3.	Developer Experience: Next.js offers a great development experience with features like hot reloading, built-in CSS 
+        support, and a well-structured project setup.
 
-    4.	Flexibility: You can choose between server-side rendering, static site generation, or even a hybrid approach for different
-        pages within the same application, depending on your needs.
+    4.	Flexibility: You can choose between server-side rendering, static site generation, or even a hybrid approach for 
+        different pages within the same application, depending on your needs.
 
-    5.	API Routes: It simplifies full-stack development by allowing you to build API endpoints within the same project, reducing
-        the need for a separate backend server.
+    5.	API Routes: It simplifies full-stack development by allowing you to build API endpoints within the same project, 
+        reducing the need for a separate backend server.
 
-    6.	Community and Ecosystem: Next.js has a strong community and a rich ecosystem of plugins and integrations, making it easier
-        to extend and customize your application.
+    6.	Community and Ecosystem: Next.js has a strong community and a rich ecosystem of plugins and integrations, making it 
+    easier to extend and customize your application.
 ```
 
 In summary, Next.js is used to build performant, scalable web applications with React, offering various rendering options and developer conveniences to streamline the development process.
