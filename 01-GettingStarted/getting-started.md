@@ -56,8 +56,10 @@ To get started with React, you'll need to set up a project that supports all the
 
 Two commonly used tools to set up a React project are:
 ```
-    •	Create React App (CRA): This tool automates the setup of a React project with all necessary configurations for auto-reloading, compiling HTML and JavaScript together, and more.
-    •	Vite: A modern alternative to CRA that offers faster project setup and better performance, especially for larger projects.
+    •	Create React App (CRA): This tool automates the setup of a React project with all necessary configurations 
+        for auto-reloading, compiling HTML and JavaScript together, and more.
+    •	Vite: A modern alternative to CRA that offers faster project setup and better performance, especially for 
+        larger projects.
 ```
 Both tools come with the necessary development environment built-in to make coding easier, including features for live reloading and code transformation.
 
@@ -110,9 +112,11 @@ You’ll then be asked to name the project, select a template (choose React), an
 
         npm run dev
 
-    Once your server is running, a local development URL will be displayed in the terminal, allowing you to preview your project in a browser.
+    Once your server is running, a local development URL will be displayed in the terminal, allowing you 
+    to preview your project in a browser.
 
 ### **Editing the Project**
 
-You can now open your project in any code editor, like Visual Studio Code. From there, you can start building your React app by editing the files and structure as needed.
+You can now open your project in any code editor, like Visual Studio Code. From there, you can start building 
+your React app by editing the files and structure as needed.
 
