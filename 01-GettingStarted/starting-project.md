@@ -17,10 +17,10 @@
 3. JSX Syntax and Transformation
 
     •	JSX (JavaScript XML) is a syntax that allows you to write HTML within JavaScript files.
-    •	Browsers don’t understand JSX directly, so Vite transforms it behind the scenes into standard JavaScript that browsers can
-        execute.
-    •	Example: You might write a <div>Hello World</div> inside a JavaScript file, and Vite will convert it into valid JavaScript 
-        code that renders the HTML.
+    •	Browsers don’t understand JSX directly, so Vite transforms it behind the scenes into standard JavaScript that
+        browsers can execute.
+    •	Example: You might write a <div>Hello World</div> inside a JavaScript file, and Vite will convert it into valid
+        JavaScript code that renders the HTML.
 
 4. Working with CSS
 
