@@ -23,17 +23,21 @@ However, this type of code is not valid JavaScript in its raw form, so a browser
 
 The React setup isn't just about code compilation. It also provides a smooth developer experience:
 ```
-    •	Live Preview: You can view your app in the browser as you work on it, and the app automatically reloads when you make changes to the code.
+    •	Live Preview: You can view your app in the browser as you work on it, and the app 
+        automatically reloads when you make changes to the code.
     •	Code Transformation: React automatically transforms the code you write into browser-compatible JavaScript.
-    •	Deployment-ready: Once your project is complete, the setup ensures that the final code can be deployed on hosting providers and viewed correctly by users.
+    •	Deployment-ready: Once your project is complete, the setup ensures that the final code can 
+        be deployed on hosting providers and viewed correctly by users.
 ```
 ### **Setting Up Your React Project**
 
 To get started with React, you'll typically use tools like Create React App (CRA), which simplifies the process of setting up a React project. CRA handles all the necessary behind-the-scenes tasks:
 ```
     •	Sets up the environment for building, previewing, and deploying React applications.
-    •	Installs essential dependencies such as Webpack (for bundling files) and Babel (for compiling modern JavaScript and JSX).
-    •	Provides a development server with live reloading, so any changes you make in your code are instantly reflected in your app preview.
+    •	Installs essential dependencies such as Webpack (for bundling files) and Babel 
+        (for compiling modern JavaScript and JSX).
+    •	Provides a development server with live reloading, so any changes you make in your code 
+        are instantly reflected in your app preview.
 ```
 ### **Next Steps**
 
