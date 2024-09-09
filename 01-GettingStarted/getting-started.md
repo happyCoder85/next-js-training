@@ -112,7 +112,7 @@ You’ll then be asked to name the project, select a template (choose React), an
 
         npm run dev
 ```
-    Once your server is running, a local development URL will be displayed in the terminal, allowing you to preview your project in a browser.
+Once your server is running, a local development URL will be displayed in the terminal, allowing you to preview your project in a browser.
 
 ### **Editing the Project**
 
