@@ -25,15 +25,17 @@
 4. Working with CSS
 
     •	The project also supports CSS imports directly inside JavaScript files.
-    •	Normally, importing CSS into JavaScript wouldn't work in a browser, but the Vite setup handles this, ensuring the CSS is 
-        included in the final output.
-    •	Example: If you have a style.css file, you can import it into your JSX file, and it will automatically be applied to the 
-        rendered elements.
+    •	Normally, importing CSS into JavaScript wouldn't work in a browser, but the Vite setup handles this, ensuring the CSS
+        is included in the final output.
+    •	Example: If you have a style.css file, you can import it into your JSX file, and it will automatically be applied to
+        the rendered elements.
 
 5. How the Browser Handles the Code
 
-    •	When you run the project, tools like Vite take care of transforming and bundling your code so the browser can understand it.
-    •	The final output that the browser receives is optimized JavaScript and CSS code, without any JSX syntax or raw CSS imports.
+    •	When you run the project, tools like Vite take care of transforming and bundling your code so the browser can
+        understand it.
+    •	The final output that the browser receives is optimized JavaScript and CSS code, without any JSX syntax or raw
+        CSS imports.
     •	Example: If you inspect the website using browser developer tools, you'll see that the JSX code you 
         wrote has been replaced by standard JavaScript, and the CSS is applied through scripts injected into the HTML.
 
