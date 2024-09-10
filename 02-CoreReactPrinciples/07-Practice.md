@@ -141,10 +141,14 @@ function App() {
 export default App;
 ```
 
-**Key Improvements:**
+#### Key Improvements
 
-**Semantic HTML:** The <li> element is now correctly placed inside PostList.jsx to ensure that list items are rendered properly within the <ul>.
-**Props Usage:** The props in Post.jsx are accessed and rendered appropriately without unused code.
-**CSS Styling:** The PostList.module.css applies grid styling to the list, ensuring that posts are rendered in columns. Each individual post is styled using Post.module.css.
+**Semantic HTML:**
+The <li> element is now correctly placed inside PostList.jsx to ensure that list items are rendered properly within the <ul>.
+**Props Usage:**
+The props in Post.jsx are accessed and rendered appropriately without unused code.
+
+**CSS Styling:** 
+The PostList.module.css applies grid styling to the list, ensuring that posts are rendered in columns. Each individual post is styled using Post.module.css.
 
 With this setup, your component system is more modular and correctly implements the rendering of posts within an unordered list.
