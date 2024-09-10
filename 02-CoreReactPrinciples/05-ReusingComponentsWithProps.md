@@ -59,29 +59,3 @@ Not every component needs Props, but when a component must be used in multiple p
 •	Props are received as a single object and can be accessed inside the component using props.<name>.
 •	They make components more flexible and reusable by enabling different configurations for the same component.
 ```
-
-
-
-
-
-
-
-
-Post.jsx:
-
-
-
-
-
-
-
-
-
-Now, when you run the app, you’ll see two distinct posts with unique authors and content, all thanks to the Props feature.
-Props in Practice
-Props are essential when you want to reuse components but still maintain flexibility. They make your component adaptable and scalable, as you can pass varying data to the same component without duplicating code. This becomes even more powerful when you integrate external data, like fetching posts from a database.
-Not every component needs Props, but when a component must be used in multiple places with different data, Props are the perfect tool to make that happen.
-Key Takeaways
-•	Props allow you to pass dynamic data to React components.
-•	Props are received as a single object and can be accessed inside the component using props.<name>.
-•	They make components more flexible and reusable by enabling different configurations for the same component.
