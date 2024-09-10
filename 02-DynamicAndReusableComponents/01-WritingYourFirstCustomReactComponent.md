@@ -1,3 +1,5 @@
+## Writing Your First Custom React Component
+
 ```
 1. Introduction to Components
     •	What Are Components? In React, components are simply functions that return JSX code. You’ll be writing many components as you build up your React applications.
