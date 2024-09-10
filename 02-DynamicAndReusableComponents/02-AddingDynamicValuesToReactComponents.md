@@ -16,6 +16,7 @@ Inside the component function, we'll use JavaScript’s built-in Math.random() m
 3.	Render the Name Dynamically
 To display this name dynamically in the JSX, replace the static name in the paragraph element. In JSX, you can use curly braces {} to insert any JavaScript expression:
 ```
+
 ![alt text](./assets/render-name-dynamically.png)
 
 Now, every time the page reloads, the displayed name alternates between Jonathan and Zayden because the component gets re-rendered. This is key in React—dynamic content based on logic or data makes your components flexible and reusable.
