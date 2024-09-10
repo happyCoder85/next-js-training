@@ -59,3 +59,8 @@ Not every component needs Props, but when a component must be used in multiple p
 •	Props are received as a single object and can be accessed inside the component using props.<name>.
 •	They make components more flexible and reusable by enabling different configurations for the same component.
 ```
+
+Now, when you run the app, you’ll see two distinct posts with unique authors and content, all thanks to the Props feature.
+
+Not every component needs Props, but when a component must be used in multiple places with different data, Props are the perfect tool to make that happen.
+
