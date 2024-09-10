@@ -31,7 +31,7 @@ React passes the props object to the component automatically. This object contai
 
 For example:
 
-![alt text](./assets/passing-props-objects.png)
+![alt text](./assets/passing-props-object.png)
 
 Here, the props object will have two keys, author and body, with values "Shakespear" and "In faith I love thee with thy eyes".
 
