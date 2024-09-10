@@ -13,9 +13,14 @@
     •	Create Component File: Inside the components folder, create a file called post.jsx.
         o	Naming Convention: Name the file based on what the component    represents. Since we’re building a post, the file is named post.jsx.
 4. Creating a React Component
-    •	Function Structure: React components are just JavaScript functions. Create a function called Post:
+    •	Function Structure: React components are just JavaScript functions. Create a function called Post:```
+        ![alt text](function-structure.png)
+```
         o	Capitalization Rule: React components must start with an uppercase letter (like Post).
     •	Exporting the Component: Use the default export syntax to make this component usable in other files:
+```
+    ![alt text](./assets/exportComponent.png)
+```
         o	Why Export? This allows you to import and use this component in other parts of your application.
 5. Running Your Development Server
     •	Keep the Server Running: To see your changes in real-time, ensure your development server is running:
@@ -23,7 +28,13 @@
 Preview in Browser: Vite will serve your website at http://localhost:5173 (or a similar port).
 6. Using Your Component in App.jsx
     •	Import the Component: To use your newly created Post component, you need to import it into the App.jsx file:
+```
+    ![alt text](importComponent.png)
+```
     •	Render the Component: Replace the existing content (e.g., “Hello World”) in App.jsx with the Post component:
+```
+    ![alt text](renderComponent.png)
+```
 7. How React Renders Components
     •	JSX Syntax: React treats your custom components like HTML elements. You use them in JSX just like <div> or <p>.
     •	Behind the Scenes: React automatically renders your component’s JSX when you include it in other components like App.
