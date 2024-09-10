@@ -2,7 +2,7 @@
 
 ### Summary of the Assignment (Problem):
 
-In this exercise, you will create a new Posts List component in React that renders multiple Post components inside an unordered list. Additionally, you'll refactor the existing Post component to use an <li> (list item) tag instead of a <div>. Once the Posts List component is complete, you’ll use it in the App component to display a list of posts.
+In this exercise, you will create a new Posts List component in React that renders multiple Post components inside an unordered list. Additionally, you'll refactor the existing Post component to use an list item tag instead of a div. Once the Posts List component is complete, you’ll use it in the App component to display a list of posts.
 
 ### Tasks:
 
@@ -26,7 +26,7 @@ Style the Posts List component by creating a CSS module for it (PostsList.module
 
 **File: PostList.jsx**
 
-The PostList.jsx component renders the list of posts (<ul>), with each individual post inside an li:
+The PostList.jsx component renders the list of posts ul, with each individual post inside an li:
 
 ```
 import Post from './Post'; 
@@ -46,7 +46,7 @@ export default PostList;
 
 **File: Post.jsx**
 
-In Post.jsx, we now move the <li> to be directly inside the PostList.jsx so that the Post component returns only the contents of a list item (<li>). Also, I fixed how the props are used:
+In Post.jsx, we now move the li to be directly inside the PostList.jsx so that the Post component returns only the contents of a list item. Also, I fixed how the props are used:
 
 ```
 import classes from './Post.module.css'; // Import the CSS file as a module.
@@ -144,7 +144,8 @@ export default App;
 #### Key Improvements
 
 **Semantic HTML:**
-The <li> element is now correctly placed inside PostList.jsx to ensure that list items are rendered properly within the <ul>.
+The li element is now correctly placed inside PostList.jsx to ensure that list items are rendered properly within the ul.
+
 **Props Usage:**
 The props in Post.jsx are accessed and rendered appropriately without unused code.
 
