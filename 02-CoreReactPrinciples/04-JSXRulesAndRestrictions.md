@@ -13,10 +13,9 @@ For example, this will cause an error:
 To fix this, wrap the components inside a parent element like <main> or an empty tag:
 ```
 ![alt text](./assets/fix_error.png)
-```
 
 Alternatively, you can use React fragments (<> </>) if you don’t want to add an extra HTML element:
-``` 
+
 ![alt text](./assets/alternative.png)
 ```
 2.	Self-Closing Tags: In JSX, if a component or element doesn’t have any content between the opening and closing tags, you must either use a self-closing tag or explicitly include both opening and closing tags.
