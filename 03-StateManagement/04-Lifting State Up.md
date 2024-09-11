@@ -37,7 +37,7 @@ In our example:
 
 So, we move the state from NewPost into PostsList. This way, PostsList can manage the state, and NewPost can still interact with it by passing down functions (event handlers) as props.
 
-Steps for Lifting State Up
+**Steps for Lifting State Up**
 1. Move the useState Hook to the Parent (PostsList):
 
 ```jsx
