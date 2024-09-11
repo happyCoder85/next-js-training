@@ -16,7 +16,7 @@ While inline styles allow you to add CSS directly within your JSX using JavaScri
 
 #### Example of inline styles (we won’t use this approach):
 
-```
+```jsx
 function Post(props) {
   return (
     <article style={{ backgroundColor: 'lightblue', padding: '10px' }}>
@@ -25,6 +25,8 @@ function Post(props) {
     </article>
   );
 }
+
+export default Post;
 ```
 
 Instead, we will focus on using CSS Modules for better structure and reusability.
@@ -34,7 +36,8 @@ Instead, we will focus on using CSS Modules for better structure and reusability
 To scope the styles specifically to the Post component and avoid class name conflicts in larger applications, we will use a CSS module.
 
 First, create a CSS file called Post.module.css:
-```
+
+```css
 /* Post.module.css */
 .post {
   background-color: lightblue;
@@ -60,7 +63,7 @@ First, create a CSS file called Post.module.css:
 
 To use these styles, we need to import the CSS module in the Post component.
 
-```
+```jsx
 // Post.jsx
 import classes from './Post.module.css';
 
@@ -97,8 +100,8 @@ In contrast, CSS Modules scope styles to individual components. This helps maint
 
 ### Final Code Implementation
 
-```
-// App.js
+```jsx
+// App.jsx
 function App() {
   return (
     <main>
@@ -108,7 +111,7 @@ function App() {
   );
 }
 ```
-```
+```jsx
 // Post.jsx:
 import classes from './Post.module.css';
 
@@ -121,7 +124,7 @@ function Post(props) {
   );
 }
 ```
-```
+```css
 //Post.module.css:
 .post {
   background-color: lightblue;

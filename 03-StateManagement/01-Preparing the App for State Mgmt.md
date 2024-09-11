@@ -9,7 +9,7 @@ To set the stage, we'll create a new component to display the form. This form wi
 
 The form is built using a new NewPost component, and to integrate it properly, you'll import the corresponding NewPost.jsx and NewPost.module.css files.
 
-```
+```jsx
 import classes from './NewPost.module.css';
 
 function NewPost() {

@@ -28,7 +28,7 @@ Style the Posts List component by creating a CSS module for it (PostsList.module
 
 The PostList.jsx component renders the list of posts ul, with each individual post inside an li:
 
-```
+```jsx
 import Post from './Post'; 
 import classes from '../components/PostList.module.css'; // Import the CSS file as a module.
 
@@ -48,7 +48,7 @@ export default PostList;
 
 In Post.jsx, we now move the li to be directly inside the PostList.jsx so that the Post component returns only the contents of a list item. Also, I fixed how the props are used:
 
-```
+```jsx
 import classes from './Post.module.css'; // Import the CSS file as a module.
 
 function Post(props) {
@@ -67,7 +67,7 @@ export default Post;
 
 This CSS file contains the grid layout for the posts list:
 
-```
+```css
 .posts {
     list-style: none;
     max-width: 50rem;
@@ -84,7 +84,7 @@ This CSS file contains the grid layout for the posts list:
 
 This CSS file handles the styling for each individual post, including animations:
 
-```
+```css
 .post {
     margin: 1rem 0;
     padding: 1rem;
@@ -126,7 +126,7 @@ This CSS file handles the styling for each individual post, including animations
 
 The App component simply imports and renders the PostList component:
 
-```
+```jsx
 import React from 'react';
 import PostList from './components/PostList';
 
