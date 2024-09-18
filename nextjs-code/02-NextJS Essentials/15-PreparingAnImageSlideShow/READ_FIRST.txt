@@ -1,0 +1,11 @@
+Exercise is to create three routes
+
+/meals
+/meals/share
+/community
+
+Add links to and from if you wish.
+
+Also, add a dynamic routes
+/meals/<some slug>
+
